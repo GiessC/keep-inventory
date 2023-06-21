@@ -1,0 +1,11 @@
+name: KeepInventory
+version: 1.0.0
+main: io.github.GiessC.keepinventory.Plugin
+description: PaperMC plugin that allows user-specific keep inventory
+author: GiessC
+api-version: '1.20'
+load: POSTWORLD
+commands:
+  addPlayer:
+    description: Adds a player to the list of players that keep their inventory and XP on death
+    usage: /<command> <player>
